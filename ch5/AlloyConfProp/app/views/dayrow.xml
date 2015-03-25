@@ -1,0 +1,13 @@
+<Alloy>
+	<TableViewRow id="row" class="row" rowId="">
+      <View class="timecol">
+        <Label id="time" class="timecaption">8am-9am</Label>
+        <Label id="location" class="locationcaption">Main Room</Label>
+      </View>
+      <View class="descriptioncol">
+        <Label id="talkname" class="talkname">Building a conference app</Label>
+        <Label id="speaker" class="speaker">Ricardo Alcocer</Label>
+        <Label id="talkdescription" class="talkdescription">I this talk you'll learn how to build a conference app for iOS and Android using Appcelerator</Label>
+      </View>
+    </TableViewRow>
+</Alloy>

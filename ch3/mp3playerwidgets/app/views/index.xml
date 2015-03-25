@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container" onOpen="doopen">
+		<Toolbar class="toolbar" platform="ios">
+    		<Items>
+				<FlexSpace/>
+        		<Label id="windowtitle"/>
+        		<FlexSpace/>
+			</Items>
+		</Toolbar>
+		<View class="content">
+			<Label id="songtitle" class="songtitle"></Label>
+			<Widget src="com.alcoapps.musicplayer" id="musicplayer"/>
+		</View>
+	</Window>
+</Alloy>

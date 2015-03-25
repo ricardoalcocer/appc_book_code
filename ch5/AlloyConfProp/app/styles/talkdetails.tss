@@ -1,0 +1,110 @@
+".container[platform=ios]" : {
+   barColor: "#6A9E68",
+   layout:"vertical",
+   statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+}
+
+".container[platform=android]" : {
+   backgroundColor:"#fff",
+   layout:"vertical"
+}
+
+".banner":{
+  height:"150",
+  backgroundImage:"/sessionbanner.png"
+}
+
+".scrollview":{
+  layout:"vertical",
+  height:Ti.UI.FILL,
+  width:Ti.UI.FILL,
+  scrollType: "vertical",
+  backgroundColor: "#fff",
+  disableBounce: true
+}
+
+".titlebox":{
+  height:"70",
+  width:Ti.UI.FILL,
+  backgroundColor:"#6A9E68"
+}
+
+"#talktitle[platform=ios]":{
+  font:{
+    fontSize: "17",
+    fontWeight: "bold"
+  },
+  top:"3",
+  color:"#fff"
+}
+
+"#talktitle[platform=android]":{
+  font:{
+    fontSize: "18",
+    fontWeight: "bold"
+  },
+  top:"3",
+  color:"#fff"
+}
+
+"#time[platform=ios]":{
+   font:{
+    fontSize: "17",
+    fontWeight: "bold"
+  },
+  color:"#fff"
+}
+
+"#time[platform=android]":{
+   font:{
+    fontSize: "16",
+    fontWeight: "bold"
+  },
+  color:"#fff"
+}
+
+"#room[platform=ios]":{
+  font:{
+    fontSize: "17",
+    fontWeight: "bold"
+  },
+  bottom:"5",
+  color:"#fff"
+}
+
+"#room[platform=android]":{
+  font:{
+    fontSize: "16",
+    fontWeight: "bold"
+  },
+  bottom:"5",
+  color:"#fff"
+}
+
+"#description":{
+  font:{
+    fontSize: "15"
+  },
+  top:"10",
+  left:"10",
+  color: "#4F4E4E"
+}
+
+"#speaker":{
+  top:"10",
+  left:"10",
+  font:{
+    fontSize: "17",
+    fontWeight: "bold"
+  },
+  color: "#4F4E4E"
+}
+
+"#speakerbio":{
+  font:{
+    fontSize: "15"
+  },
+  top: "10",
+  left:"10",
+  color: "#4F4E4E"
+}

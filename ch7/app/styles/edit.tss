@@ -1,0 +1,105 @@
+".container[platform=ios]": {
+	orientationModes: [Ti.UI.PORTRAIT],
+	backgroundColor:"#282828",
+	layout:"vertical",
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+}
+
+"#actionbar":{
+  displayHomeAsUp:"true",
+  onHomeIconItemSelected:"doclose"
+}
+
+"#closeitem":{
+   title:"Add",
+   icon:Ti.Android.R.drawable.ic_menu_share,
+   showAsAction:Ti.Android.SHOW_AS_ACTION_ALWAYS
+}
+
+"#closebtn":{
+   systemButton:Ti.UI.iPhone.SystemButton.DONE
+}
+
+"#sharebtn":{
+  systemButton:Ti.UI.iPhone.SystemButton.ACTION
+}
+
+".container[platform=android]": {
+  orientationModes: [Ti.UI.PORTRAIT],
+  backgroundColor:"#282828",
+  layout:"vertical"
+}
+
+"#toolbar":{
+	tintColor: "#fff",
+  top:"20",
+  barColor:"#282828"
+}
+
+"#thephoto":{
+	 height:Ti.UI.FILL,
+	 width:Ti.UI.FILL,
+	 autorotate:true
+}
+
+".caption":{
+	font:{
+		fontSize: 38,
+		fontFamily: "Impact",
+		fontWeight: "bold"
+	},
+	color: '#fff',
+	shadowColor: "#000",
+	shadowOffset: 15,
+	shadowRadius: 20,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	width: Ti.UI.FILL,
+  backgroundColor: "#40000000"
+}
+
+"#byline":{
+	font:{
+		fontSize: 13,
+	},
+	color: '#fff',
+	shadowColor: "#000",
+	shadowOffset: 15,
+	shadowRadius: 20,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	width: Ti.UI.FILL,
+	bottom:0
+}
+
+"#addtext":{
+	width: 300,
+	height: 250,
+	visible: false,
+	backgroundColor: "#fff",
+	borderRadius: 5,
+	borderWidth: "#cacaca",
+	borderWidth: 1
+}
+
+"#meme":{
+	 height:Ti.UI.FILL,
+	 width:Ti.UI.FILL
+}
+
+"#memetoptext":{
+	text:L('tap_to_edit'),
+	top:10
+}
+
+"#memebottomtext":{
+	text:L('tap_to_edit'),
+	bottom: 20
+}
+
+"#progressIndicator":{
+	message:L('generating'),
+	min:0,
+	max:10,
+	cancelable:true,
+    location: Ti.UI.Android.PROGRESS_INDICATOR_DIALOG,
+    type:Ti.UI.Android.PROGRESS_INDICATOR_INDETERMINANT
+}

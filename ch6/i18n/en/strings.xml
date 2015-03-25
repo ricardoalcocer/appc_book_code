@@ -1,0 +1,18 @@
+<resources>
+	<string name="app_title">The Alloy Conference</string>
+	<string name="tab1_title">Schedule</string>
+	<string name="tab2_title">Venue</string>
+	<string name="tab3_title">Conversation</string>
+	<string name="tab4_title">Videos</string>
+	<string name="day1_caption">Day 1</string>
+	<string name="day2_caption">Day 2</string>
+	<string name="day3_caption">Day 3</string>
+    <string name="presented_by">Presented by %s</string>
+    <string name="about">About %s</string>
+    <string name="refresh">Refresh</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="offline_error">Make sure you have an active Internet connection.</string>
+    <string name="venue_title">In 2014 the conference will take place in the beautiful Moscone Center in San Francisco, CA U.S.A.</string>
+    <string name="venue_description">Located in the heart of SOMA in San Francisco, Moscone Center features more than 992,000 square feet of meeting and exhibit space, including 107 meeting rooms, three ballrooms and over 151,000 square feet of pre-function lobbies.</string>
+    <string name="no_phone">Unable to initiate a phone call on this device.</string>
+</resources>

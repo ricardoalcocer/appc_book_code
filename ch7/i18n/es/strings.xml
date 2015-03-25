@@ -1,0 +1,17 @@
+<resources>
+    <string name="portrait_tip">Para mejores resultados toma la foto en modo vertical</string>
+    <string name="about">Esta es una de las apps que aprenderas a desarrollar en el libro Build native cross-platform apps with Appcelerator.  Detalles en %s.\n\nDesarrallada utilizando la plataforma Appcelerator con el Alloy MVC Framework.  Código fuente bajo la licencia MIT.</string>
+    <string name="about_title">Sobre PhotoMEME</string>
+    <string name="close_btn">Cerrar</string>
+    <string name="book_btn">El Libro</string>
+    <string name="tap_to_edit">Oprime para editar</string>
+    <string name="generating">Generando MEME...</string>
+    <string name="enter_text">Ingrese texto</string>
+    <string name="signature">He creado un nuevo #photomeme</string>
+    <string name="share">Compartir imagen</string>
+    <string name="confirm_close">¿Volver a comenzar?</string>
+    <string name="close_title">Confirmar</string>
+    <string name="android_share_dialog">Compartir vía</string>
+    <string name="created_using">Creado usando PhotoMEME para </string>
+</resources>
+

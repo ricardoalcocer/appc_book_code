@@ -1,0 +1,145 @@
+".table[platform=ios]":{
+	 separatorStyle:Titanium.UI.iPhone.TableViewSeparatorStyle.NONE
+}
+
+".row[platform=ios]":{
+	 height:"155",
+	 selectionStyle: Titanium.UI.iPhone.TableViewCellSelectionStyle.NONE
+}
+
+".row[platform=android]":{
+	 height:"155"
+}
+
+".timecol":{
+	width:"40%",
+	left:"0",
+	top:"5",
+	bottom:"5",
+	layout: "vertical"
+}
+
+".descriptioncol":{
+	 width:"60%",
+	 right:"5",
+	 backgroundColor:"#efefef",
+	 top:"5",
+	 bottom:"5",
+	 layout:"vertical"
+}
+
+".timecaption[platform=android]":{
+	left:"5", 
+	top:"0", 
+	color:"#000",
+	font:{
+		fontSize: 14,
+		fontWeight: "bold"
+	}
+}
+
+".timecaption[platform=ios]":{
+	left:"5", 
+	top:"0", 
+	color:"#000",
+	font:{
+		fontSize: 12,
+		fontWeight: "bold"
+	}
+}
+
+".locationcaption[platform=android]":{
+	left:"5", 
+	top:"8", 
+	color:"#000",
+	font:{
+		fontSize: 14,
+		fontStyle: "italic"
+	}
+}
+
+".locationcaption[platform=ios]":{
+	left:"5", 
+	top:"7", 
+	color:"#000",
+	font:{
+		fontSize: 12,
+		fontStyle: "italic"
+	}
+}
+
+".talkname[platform=android]":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:"#000",
+	left:"8",
+	right:"8",
+	font:{
+		fontSize: 14,
+		fontWeight: "bold"
+	}
+}
+
+".talkname[platform=ios]":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:"#000",
+	left:"8",
+	right:"8",
+	font:{
+		fontSize: 12,
+		fontWeight: "bold"
+	}
+}
+
+".speaker[plaform=android]":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:"#000",
+	left:"8",
+	right:"8",
+	font:{
+		fontSize: 13,
+		fontStyle: "italic"
+	}
+}
+
+".speaker[platform=ios]":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:"#000",
+	left:"8",
+	right:"8",
+	font:{
+		fontSize: 12,
+		fontStyle: "italic"
+	}
+}
+
+".talkdescription[platform=android]":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:"#000",
+	left:"8",
+	right:"8",
+	top: "8",
+	bottom: "8",
+	font:{
+		fontSize: 13
+	},
+	layout: "vertical"
+}
+
+".talkdescription[platform=ios]":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:"#000",
+	left:"8",
+	right:"8",
+	top: "8",
+	bottom: "8",
+	font:{
+		fontSize: 12
+	},
+	layout: "vertical"
+}

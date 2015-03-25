@@ -1,0 +1,118 @@
+".container[platform=ios]" : {
+  title: L("tab3_title"),
+  barColor: "#6A9E68",
+  backgroundColor: "#fff" ,
+  orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
+  statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+}
+
+".container[platform=android]" : {
+  title: L("tab3_title"),
+  barColor: "#6A9E68",
+  backgroundColor: "#fff" ,
+  orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT]
+}
+
+".rowtemplate":{
+   height: 100
+}
+
+".loadingtemplate":{
+  height:50,
+  backgroundColor: "#636363"
+}
+
+"#tweetlist": {
+  top: 0,
+  backgroundColor:"#0000",
+  defaultItemTemplate:"rowtemplate",
+  separatorColor:"#cacaca",
+  backgroundFocusedColor:"transparent"
+}
+
+".tweet[platform=ios]":{
+  top: 20,
+  left: 70,
+  right: 10,
+  width: Ti.UI.FILL,
+  height: Ti.UI.SIZE,
+  font:{
+    fontSize: 13
+  },
+  color: "#000"
+}
+
+".tweet[platform=android]":{
+  top: 20,
+  left: 70,
+  right: 10,
+  width: Ti.UI.FILL,
+  height: Ti.UI.SIZE,
+  font:{
+    fontSize: 13
+  },
+  color: "#000"
+}
+
+".avatar":{
+  height:60,
+  width:60,
+  top: 5,
+  left:5,
+  borderRadius:5,
+  borderWidth: 1,
+  borderColor: "#cacaca"
+}
+
+".name[platform=ios]":{
+  height:Ti.UI.SIZE,
+  width:Ti.UI.SIZE,
+  left:70,
+  top: 5,
+  font:{
+    fontSize: 12,
+    fontWeight: 'bold'
+  },
+  color: "#000"
+}
+
+".name[platform=android]":{
+  height:Ti.UI.SIZE,
+  width:Ti.UI.SIZE,
+  left:70,
+  top: 5,
+  font:{
+    fontSize: 12,
+    fontWeight: 'bold'
+  },
+  color: "#000"
+}
+
+".screen_name[platform=ios]":{
+  height:Ti.UI.SIZE,
+  width:Ti.UI.SIZE,
+  top: 5,
+  right:10,
+  font:{
+    fontSize: 12
+  },
+  color: "#000"
+}
+
+".screen_name[platform=android]":{
+  height:Ti.UI.SIZE,
+  width:Ti.UI.SIZE,
+  top: 5,
+  right:10,
+  font:{
+    fontSize: 12
+  },
+  color: "#000"
+}
+
+".loading":{
+  width: Ti.UI.FILL,
+  height: Ti.UI.SIZE,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  color: "#fff"
+}

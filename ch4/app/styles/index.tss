@@ -1,0 +1,54 @@
+//
+// IOS STYLES
+//
+
+"TabGroup[platform=ios]":{
+	tabsTintColor: "#6A9E68"
+}
+
+"#tab1[platform=ios]":{
+	title:L('tab1_title'),
+	icon:"images/schedule.png"
+}
+
+"#tab2[platform=ios]":{
+	title:L('tab2_title'),
+	icon:"images/venue.png"
+}
+
+"#tab3[platform=ios]":{
+	title:L('tab3_title'),
+	icon:"images/conversation.png"
+}
+
+"#tab4[platform=ios]":{
+	title:L('tab4_title'),
+	icon:"images/videos.png"
+}
+
+//
+// ANDROID STYLES
+//
+
+"#tab1[platform=android]":{
+	icon:"/images/schedule.png"
+	//title: L('tab1_title')
+}
+
+"#tab2[platform=android]":{
+	//icon:"menuicons/venue.png",
+	//title: L('tab2_title')
+	icon:"/images/venue.png"
+}
+
+"#tab3[platform=android]":{
+	//icon:"menuicons/conversation.png",
+	//title: L('tab3_title')
+	icon:"/images/conversation.png"
+}
+
+"#tab4[platform=android]":{
+	//icon:"menuicons/videos.png",
+	//title: L('tab4_title')
+	icon:"/images/videos.png"
+}

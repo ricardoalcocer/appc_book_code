@@ -1,0 +1,33 @@
+".controlsbar":{
+	bottom:"0",
+	height:"70",
+	backgroundColor:"#cacaca",
+	opacity:".5"
+}
+
+".button":{
+	width: "33%",
+	height: 50
+}
+
+".btnprev":{
+	 image:WPATH("btnprev.png")
+}
+
+".btnplay":{
+	 image:WPATH("btnplay.png")
+}
+
+".btnnext":{
+	 image:WPATH("btnnext.png")
+}
+
+"#prev":{
+	left: 0
+}
+
+"#play":{}
+
+"#next":{
+	right: 0
+}

@@ -1,0 +1,15 @@
+<Alloy>
+  <Window id="talkdetails" class="container">
+    <View class="banner"/>
+    <ScrollView class="scrollview" >
+      <View class="titlebox">
+        <Label id="talktitle"/>
+        <Label id="time"/>
+        <Label id="room"/>
+      </View>
+      <Label id="description"/>
+      <Label id="speaker"/>
+      <Label id="speakerbio"/>
+    </ScrollView>
+  </Window>
+</Alloy>

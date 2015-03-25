@@ -1,0 +1,21 @@
+".container": {
+	height:Ti.UI.FILL,
+	width:Ti.UI.FILL
+}
+
+
+"#tab1":{
+	title: "Schedule"	
+}
+
+"#tab2":{
+	title: "Venue"		
+}
+
+"#tab3":{
+	title: "Conversation"	
+}
+
+"#tab4":{
+	title: "Videos"	
+}

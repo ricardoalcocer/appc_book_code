@@ -1,0 +1,72 @@
+// container for iOS
+".container[platform=ios]": {
+	backgroundColor:"white",
+	top:"20",
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.UPSIDE_PORTRAIT],
+	layout: "vertical"
+}
+
+// container for Android
+".container[platform=android]": {
+	backgroundColor:"white",
+	orientationModes: [Ti.UI.PORTRAIT],
+	layout: "vertical"
+}
+
+".toolbar":{
+	top:0,
+	borderTop:"true",
+	borderBottom:"true"
+}
+
+//content view
+".content":{
+	backgroundColor: "#cacaca",
+	backgroundImage: "/goldengate.png"
+}
+
+".songtitle":{
+	font:{
+		fontSize: "45",
+		fontWeight: "bold"
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#fff",
+	left: 10,
+	right: 10
+}
+
+".controlsbar":{
+	bottom:"0",
+	height:"70",
+	backgroundColor:"#cacaca",
+	opacity:".5"
+}
+
+".button":{
+	width: "33%",
+	height: 50
+}
+
+".btnprev":{
+	 image:"/btnprev.png"
+}
+
+".btnplay":{
+	 image:"/btnplay.png"
+}
+
+".btnnext":{
+	 image:"/btnnext.png"
+}
+
+"#prev":{
+	left: 0
+}
+
+"#play":{}
+
+"#next":{
+	right: 0
+}

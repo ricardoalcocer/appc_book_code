@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="container">
+
+    <Button class="helpbutton" platform="ios" onClick="showinfo"></Button>
+    <Menu id="menu" platform="android">
+        <MenuItem id="info" onClick="showinfo" />
+    </Menu>
+
+		<Button id="start" onClick="doClick"/>
+
+		<Label id="portrait_tip"/>
+	</Window>
+</Alloy>

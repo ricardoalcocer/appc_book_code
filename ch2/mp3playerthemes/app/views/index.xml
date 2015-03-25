@@ -1,0 +1,25 @@
+<Alloy>
+	<Window class="container" onOpen="doopen">
+		<Toolbar class="toolbar" platform="ios">
+    		<Items>
+				<FlexSpace/>
+        		<Label id="windowtitle"/>
+        		<FlexSpace/>
+			</Items>
+		</Toolbar>
+		<View class="content">
+			<Label id="songtitle" class="songtitle"></Label>
+			<View class="controlsbar">
+				<View class="button" id="prev">
+					<ImageView class="btnprev" onTouchstart="prevdown" onTouchend="prevup"/>
+				</View>
+				<View class="button" id="play">
+					<ImageView class="btnplay" onTouchstart="playdown" onTouchend="playup"/>
+				</View>
+				<View class="button" id="next">
+					<ImageView class="btnnext" onTouchstart="nextdown" onTouchend="nextup"/>
+				</View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

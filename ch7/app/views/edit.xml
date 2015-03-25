@@ -1,0 +1,28 @@
+<Alloy>
+	<Window id="edit" class="container">
+	    <ActionBar id="actionbar" platform="android"/>
+
+	    <Menu id="menu" platform="android">
+	      <MenuItem id="closeitem" onClick="btnshare"/>
+	    </Menu>
+
+	    <Toolbar id="toolbar" platform="ios">
+	    	<Items>
+	    		<Button id="closebtn" onClick="doclose"/>
+	    		<FlexSpace/>
+	    		<Label color="#fff">Preview</Label>
+	    		<FlexSpace/>
+	    		<Button id="sharebtn" onClick="btnshare"/>
+	    	</Items>
+	    </Toolbar>
+
+		<View id="meme">
+			<ImageView id="thephoto"/>
+			<Label id="memetoptext" class="caption" onClick="edittop"/>
+			<Label id="memebottomtext" class="caption" onClick="editbottom"/>
+			<Label id="byline"/>
+		</View>
+
+		<ProgressIndicator ns="Ti.UI.Android" id="progressIndicator" platform="android"/>
+	</Window>
+</Alloy>

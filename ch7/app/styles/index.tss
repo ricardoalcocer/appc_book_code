@@ -1,0 +1,40 @@
+".container[platform=ios]": {
+	orientationModes: [Ti.UI.PORTRAIT],
+	backgroundColor:"#282828",
+  statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+}
+
+".container[platform=android]": {
+  orientationModes: [Ti.UI.PORTRAIT],
+  backgroundColor:"#282828"
+}
+
+"#start":{
+	 height:"300",
+	 width:"300",
+	 backgroundImage:"/photobtn.png",
+	 backgroundSelectedImage:"/photobtn_dn.png"
+}
+
+"#portrait_tip":{
+	text: L('portrait_tip'),
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color:"#fff",
+	bottom:"20"
+}
+
+"#info":{
+	 title:"Info",
+	 showAsAction:Ti.Android.SHOW_AS_ACTION_ALWAYS,
+	 icon:Ti.Android.R.drawable.ic_menu_help
+}
+
+".helpbutton":{
+   top:"30",
+   right:"5",
+   backgroundImage:"/images/helpicon.png",
+   width:"30",
+   height:"30"
+}

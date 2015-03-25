@@ -1,0 +1,6 @@
+".xcontainer" : {
+	barColor: "#6A9E68",
+	backgroundColor: "#fff",
+	title: L("tab2_title"),
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT]
+}

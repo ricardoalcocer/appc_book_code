@@ -1,0 +1,42 @@
+".container[platform=ios]" : {
+	backgroundColor: "#fff",
+	barColor: "#6A9E68",
+	title: L("tab1_title"),
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
+	layout:"vertical",
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT 
+}
+
+".container[platform=android]" : {
+	backgroundColor: "#fff",
+	barColor: "#6A9E68",
+	title: L("tab1_title"),
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
+	layout:"vertical"
+}
+
+"#scrollableView":{
+	 showPagingControl:false,
+	 scrollingEnabled:true
+}
+
+"#dayoptions[platform=ios]":{
+	backgroundColor:"#6A9E68",
+	top:5, 
+	bottom:5, 
+	height:25, 
+	width:200,
+	index:0 
+}
+
+".day1button":{
+	title:L('day1_caption')
+}
+
+".day2button":{
+	title:L('day2_caption')	
+}
+
+".day3button":{
+	title:L('day3_caption')	
+}

@@ -1,0 +1,122 @@
+
+".container[platform=ios]" : {
+	barColor: "#6A9E68",
+	backgroundColor: "#fff",
+	title: L("tab2_title"),
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT 
+}
+
+".container[platform=android]" : {
+	barColor: "#6A9E68",
+	backgroundColor: "#fff",
+	title: L("tab2_title"),
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT]
+}
+
+".titlecontainer":{
+	backgroundColor: "#e2e2e2",
+	height: 60,
+	width: Ti.UI.FILL
+}
+
+".venuetitle":{
+	text:L('venue_title'),
+	left: 10,
+	right: 10,
+	width: Ti.UI.FILL,
+	font:{
+		fontWeight: 'bold',
+		fontSize: 15
+	},
+	color: "#4F4E4E"
+}
+
+".venuedescription":{
+	text: L('venue_description'),
+	left: 10,
+	right: 10,
+	width: Ti.UI.FILL,
+	font:{
+		fontSize: 14
+	},
+	color: "#4F4E4E"
+}
+
+".scrollview":{
+	layout:"vertical",
+	height:Ti.UI.FILL,
+	width:Ti.UI.FILL,
+	scrollType: "vertical",
+	backgroundColor: "#fff",
+	disableBounce: true
+}
+
+".venueimage":{
+	backgroundImage:"/venue.png",
+	height: 160
+}
+
+".addressrow":{
+	height: 30,
+	layout: "horizontal",
+	top: 10
+}
+
+".phonerow":{
+	height: 30,
+	layout: "horizontal",
+	bottom: 10
+}
+
+".mapicon":{
+	left: 10,
+	width: 20,
+	right: 10,
+	height: 20,
+	image: "/mapicon.png"
+}
+
+".phoneicon":{
+	left: 10,
+	width: 20,
+	right: 10,
+	height: 20,
+	image: "/phoneicon.png"
+}
+
+".maptext[platform=ios]":{
+	width: Ti.UI.FILL,
+	font:{
+		fontSize: 14,
+		fontWeight: 'bold'
+	},
+	color: "#4F4E4E"
+}
+
+".phonetext[platform=ios]":{
+	width: Ti.UI.FILL,
+	font:{
+		fontSize: 14,
+		fontWeight: 'bold'
+	},
+	color: "#4F4E4E"
+}
+
+".maptext[platform=android]":{
+	width: Ti.UI.FILL,
+	font:{
+		fontSize: 16,
+		fontWeight: 'bold'
+	},
+	color: "#4F4E4E"
+}
+
+".phonetext[platform=android]":{
+	width: Ti.UI.FILL,
+	font:{
+		fontSize: 16,
+		fontWeight: 'bold'
+	},
+	color: "#4F4E4E"
+}

@@ -1,0 +1,22 @@
+<Alloy>
+  <Window id="conversation" class="container">
+    <RightNavButton platform="ios">
+      <Button systemButton="Ti.UI.iPhone.SystemButton.REFRESH" onClick="dorefresh"/>
+    </RightNavButton>
+    <ListView id="tweetlist" onItemclick="doclick">
+      <Templates>
+        <ItemTemplate name="rowtemplate" class="rowtemplate">
+         <ImageView bindId="avatar" class="avatar"/>
+         <Label bindId="name" class="name"/>
+         <Label bindId="screen_name" class="screen_name"/>
+         <Label bindId="tweet" class="tweet"/>
+        </ItemTemplate>
+        <ItemTemplate name="loadingtemplate" class="loadingtemplate">
+         <Label bindId="loading" class="loading"/>
+        </ItemTemplate>
+      </Templates>
+      <ListSection name="notification"/>
+      <ListSection name="tweets"/>
+    </ListView>
+  </Window>
+</Alloy>

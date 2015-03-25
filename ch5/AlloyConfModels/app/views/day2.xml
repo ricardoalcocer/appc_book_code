@@ -1,0 +1,5 @@
+<Alloy>
+  <TableView id="day2table" class="table" onClick="tableclick" onScroll="tablescroll">
+
+  </TableView>
+</Alloy>

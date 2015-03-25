@@ -1,0 +1,19 @@
+<Alloy>
+	<Window class="container">
+		<ScrollView class="scrollview">
+			<View class="titlecontainer">
+				<Label class="venuetitle"/>
+			</View>
+			<View class="venueimage"/>
+			<View class="addressrow">
+				<ImageView class="mapicon"/>
+				<Label id="maptext" class="maptext" onClick="clickmap" />
+			</View>
+			<View class="phonerow">
+				<ImageView class="phoneicon"/>
+				<Label id="phonetext" class="phonetext" onClick="clickcall" />
+			</View>
+			<Label class="venuedescription"></Label>
+		</ScrollView>
+	</Window>
+</Alloy>

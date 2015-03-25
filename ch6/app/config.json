@@ -1,0 +1,18 @@
+{
+	"global": {
+    "venueAddress"          : "747 Howard St, San Francisco, CA 94103",
+    "venuePhoneNumber"      : "+ (415) 974-4000",
+    "twitterHashTag"        : "#tidev",
+    "twitterConsumerKey"    : "YOUR_CONSUMER_KEY",
+    "twitterConsumerSecret" : "YOUR_CONSUMER_SECRET",
+    "youtubeUser"           : "appcelerator"
+  },
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"dependencies": {}
+}

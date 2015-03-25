@@ -1,0 +1,74 @@
+[
+	{
+		"time":"8am-9am",
+		"room":"Lobby",
+		"title":"Registration",
+		"speaker":"",
+		"description":"Come to the registration tables and get your badge and goodie bags.",
+		"speakerbio": ""
+	},
+	{
+		"time":"9am-10:30am",
+		"room":"Main room",
+		"title":"Keynote",
+		"speaker":"Jack Bauer",
+		"description":"Jack Bauer from CTU talks about the challenges of being a special agent who makes his own rules.",
+		"speakerbio": "David Notter is Professor of Animal and Poultry Sciences at Virginia Polytechnic Institute & State University.  He received a B.S. degree in Animal Science from The Ohio State University and the M.S. and Ph.D. in Animal Breeding from the University of Nebraska."
+	},
+	{
+		"time":"10:30am-Noon",
+		"room":"Main Room",
+		"title":"The state of the world",
+		"speaker":"Steve Wozniak",
+		"description":"In this talk, Steve Wozniak will share his experiences as an awesome human being and how he doesn't cares that people don't really know or appreciate what he's done for the industry.",
+		"speakerbio": "David Notter is Professor of Animal and Poultry Sciences at Virginia Polytechnic Institute & State University.  He received a B.S. degree in Animal Science from The Ohio State University and the M.S. and Ph.D. in Animal Breeding from the University of Nebraska."
+	},
+	{
+		"time":"Noon-1:30pm",
+		"room":"",
+		"title":"Lunch",
+		"speaker":"",
+		"description":"Go across the street and visit our food trucks, featuring tacos, sushi, gyros and a huge selection of meatless hotdogs.",
+		"speakerbio": ""
+	},
+	{
+		"time":"1:30pm-2:30pm",
+		"room":"Track 1 : East room",
+		"title":"Lunch",
+		"speaker":"Steve Wozniak",
+		"description":"In this talk, Steve Wozniak will share his experiences as an awesome human being and how he doesn't cares that people don't really know or appreciate what he's done for the industry.",
+		"speakerbio": "David Notter is Professor of Animal and Poultry Sciences at Virginia Polytechnic Institute & State University.  He received a B.S. degree in Animal Science from The Ohio State University and the M.S. and Ph.D. in Animal Breeding from the University of Nebraska."
+	},
+	{
+		"time":"1:30pm-2:30pm",
+		"room":"Track 2 : West room",
+		"title":"Lunch",
+		"speaker":"Steve Wozniak",
+		"description":"In this talk, Steve Wozniak will share his experiences as an awesome human being and how he doesn't cares that people don't really know or appreciate what he's done for the industry.",
+		"speakerbio": "David Notter is Professor of Animal and Poultry Sciences at Virginia Polytechnic Institute & State University.  He received a B.S. degree in Animal Science from The Ohio State University and the M.S. and Ph.D. in Animal Breeding from the University of Nebraska."
+	},
+	{
+		"time":"2:30pm-3:30pm",
+		"room":"Track 1 : East room",
+		"title":"Lunch",
+		"speaker":"Steve Wozniak",
+		"description":"In this talk, Steve Wozniak will share his experiences as an awesome human being and how he doesn't cares that people don't really know or appreciate what he's done for the industry.",
+		"speakerbio": "David Notter is Professor of Animal and Poultry Sciences at Virginia Polytechnic Institute & State University.  He received a B.S. degree in Animal Science from The Ohio State University and the M.S. and Ph.D. in Animal Breeding from the University of Nebraska."
+	},
+	{
+		"time":"2:30pm-3:30pm",
+		"room":"Track 2 : West room",
+		"title":"Lunch",
+		"speaker":"Steve Wozniak",
+		"description":"In this talk, Steve Wozniak will share his experiences as an awesome human being and how he doesn't cares that people don't really know or appreciate what he's done for the industry.",
+		"speakerbio": "David Notter is Professor of Animal and Poultry Sciences at Virginia Polytechnic Institute & State University.  He received a B.S. degree in Animal Science from The Ohio State University and the M.S. and Ph.D. in Animal Breeding from the University of Nebraska."
+	},
+	{
+		"time":"4:30pm-5pm",
+		"room":"Main room",
+		"title":"Closing Remarks",
+		"speaker":"Steve Wozniak",
+		"description":"In this talk, Steve Wozniak will share his experiences as an awesome human being and how he doesn't cares that people don't really know or appreciate what he's done for the industry.",
+		"speakerbio": "David Notter is Professor of Animal and Poultry Sciences at Virginia Polytechnic Institute & State University.  He received a B.S. degree in Animal Science from The Ohio State University and the M.S. and Ph.D. in Animal Breeding from the University of Nebraska."
+	}
+]

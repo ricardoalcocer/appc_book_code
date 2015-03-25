@@ -1,0 +1,16 @@
+<Alloy>
+	<TabGroup height="Ti.UI.FILL" width="Ti.UI.FILL">
+		<Tab id="tab1"> 
+			<Require src="schedule" id="scheduleTab"/>
+		</Tab>
+		<Tab id="tab2"> 
+			<Require src="venue" id="venueTab"/>
+		</Tab>
+		<Tab id="tab3"> 
+			<Require src="conversation" id="conversationTab"/>
+		</Tab>
+		<Tab id="tab4"> 
+			<Require src="videos" id="videosTab"/>
+		</Tab>
+	</TabGroup>
+</Alloy>
