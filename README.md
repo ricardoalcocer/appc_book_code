@@ -2,6 +2,7 @@
 
 ![](http://sht.tl/bHsIKt)
 
+### Buy the book from <a href="http://bit.ly/appcbook">Amazon.com</a>
 ---
 
 Join the mailing list at [http://buildmobileapps.io/#mailinglist](http://buildmobileapps.io/#mailinglist)
