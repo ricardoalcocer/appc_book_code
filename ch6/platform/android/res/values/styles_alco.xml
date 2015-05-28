@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Alco" parent="@style/Theme.AppCompat">
+      <item name="colorPrimary">@color/primary</item>
+      <item name="colorAccent">@color/accent</item>
+    </style>
+    
+    <color name="primary">#78AC80</color>
+    <color name="accent">#5A7F5E</color>
+</resources>

@@ -40,3 +40,12 @@
 ".day3button":{
 	title:L('day3_caption')	
 }
+
+
+"#paging" : {
+    top: 0,
+    indicatorColor: Alloy.Globals.viewPager.indicatorColor,
+    tabs: true,
+    tabWidth :'auto',
+    backgroundColor : Alloy.Globals.viewPager.backgroundColor,
+}

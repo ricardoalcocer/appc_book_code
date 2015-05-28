@@ -1,4 +1,4 @@
-var args = arguments[0] || {};
+/*var args = arguments[0] || {};
 var tabs = require('com.navid.tabs');
 var tabs = tabs.createPagerTabs({
     current: 0,
@@ -26,4 +26,10 @@ var tabs = tabs.createPagerTabs({
     ]
 });
 
-$.schedule.add(tabs);
+$.schedule.add(tabs);*/
+
+function tabHandler(e) {
+  //console.log('selected tab ', e.tab);
+}
+
+$.paging.setScrollableView($.scrollableView);

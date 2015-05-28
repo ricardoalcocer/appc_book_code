@@ -14,5 +14,7 @@
 	"os:blackberry": {},
 	"os:ios": {},
 	"os:mobileweb": {},
-	"dependencies": {}
+	"dependencies": {
+		"de.manumaticx.pagingcontrol" : "*"
+	}
 }

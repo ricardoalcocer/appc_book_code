@@ -1,3 +1,10 @@
 <Alloy>
-	<Window id="schedule" class="container" layout="vertical"></Window>
+	<Window id="schedule" class="container" layout="vertical">
+		<Widget id="paging" src="de.manumaticx.pagingcontrol" onSelect="tabHandler" />
+	    <ScrollableView id="scrollableView">
+	      <Require src="day1"/>
+	      <Require src="day2"/>
+	      <Require src="day3"/>
+	    </ScrollableView>
+	</Window>
 </Alloy>

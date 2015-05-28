@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.stepbystep</id>
+    <id>com.stepbystep.x</id>
     <name>Alloy Conference</name>
     <version>1.0</version>
     <publisher>not specified</publisher>
@@ -40,8 +40,8 @@
     </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
         <manifest>
-            <application android:theme="@style/Theme.Greenab"/>
-            <uses-sdk android:targetSdkVersion="19"/>
+            <application android:theme="@style/Theme.Alco"/>
+            <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22"/>
         </manifest>
     </android>
     <mobileweb>
@@ -57,12 +57,11 @@
     </modules>
     <deployment-targets>
         <target device="android">true</target>
-        <target device="blackberry">false</target>
         <target device="ipad">true</target>
         <target device="iphone">true</target>
         <target device="mobileweb">false</target>
     </deployment-targets>
-    <sdk-version>3.4.0.GA</sdk-version>
+    <sdk-version>4.0.0.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
