@@ -1,5 +1,5 @@
 <Alloy>
-  <TableView  title="DAY 2" id="day2table" class="table" onClick="tableclick" onScroll="tablescroll">
+  <TableView  title="L('day2_caption')" id="day2table" class="table" onClick="tableclick" onScroll="tablescroll">
 
   </TableView>
 </Alloy>
