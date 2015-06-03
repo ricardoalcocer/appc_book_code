@@ -159,7 +159,7 @@ function init(){
 function onScroll(e){
 
     // restrict this to $.scrollableView to support nesting scrollableViews
-	if(e.source !== $.scrollableView)
+  if(e.source !== $.scrollableView)
         return;
 
     // update the indicator position
@@ -201,7 +201,11 @@ function updateOffset(index){
  * Callback for orientationchange event
  */
 function onOrientationChange(e){
-    postLayout(adjustePositions, true);
+    
+    postLayout(function(){
+      $.tabsCtrl.updateWidth();
+      adjustePositions();
+    }, true);
 }
 
 /**
