@@ -1,6 +1,6 @@
 {
     "global": {
-        "theme": "goldengate"
+        "theme": "caribbean"
     },
     "env:development": {},
     "env:test": {},
