@@ -2,9 +2,9 @@ function refreshList(tableObject,youtubeUser){
   console.log('loading videos');
 
     require('socialfeeds').getFeed({
-        type:           'YOUTUBE',
-        user:           Alloy.CFG.youtubeUser,
-        max: 20,
+        type                 : 'YOUTUBE',
+        youtubePlaylist      : Alloy.CFG.youtubePlaylist,
+        youtubeAPIKey        : Alloy.CFG.youtubeAPIKey,
         success: function(e){
             fillTable(this.responseText,tableObject);
         },
@@ -15,22 +15,36 @@ function refreshList(tableObject,youtubeUser){
 }
 
 function fillTable(response,tableObject){
+
+  // var parsedResponse = JSON.parse(this.responseText);
+  // parsedResponse.items.forEach(function(item){
+  //   var title = item.snippet.title;
+  //   var description = item.snippet.description;
+  //   var thumb = item.snippet.thumbnails.default.url;
+  //   var videoId = item.snippet.resourceId.videoId;
+  //   var videoURL = 'https://www.youtube.com/watch?v=' + videoId;
+
+  //   console.log(title);
+  //   console.log(description);
+  //   console.log(thumb);
+  //   console.log(videoId);
+  //   console.log(videoURL);
+  // })
+        
   try{
     var data=[];
     var parsed=JSON.parse(response);
+    
     console.log('videos');
-    parsed.feed.entry.forEach(function(video){
-        var link      = video.link[0].href;
-      var summary     = video.title.$t;
-      var author      = video.author[0].name.$t;
-      var duration    = video.media$group.yt$duration.seconds;
-      var thumb       = video.media$group.media$thumbnail[0].url;
+    parsed.items.forEach(function(video){
+      var videoId     = video.snippet.resourceId.videoId;
+      var link        = 'https://www.youtube.com/watch?v=' + videoId;
+      var summary     = video.snippet.description;
+      var thumb       = video.snippet.thumbnails.default.url;
 
       var row={
-        link      : link,
+        link        : link,
         summary     : summary,
-        author      : author,
-        duration    : convertMS(duration*1000),
         thumb       : thumb
       }
 
@@ -41,8 +55,6 @@ function fillTable(response,tableObject){
       return {
         thumb       : { image: item.thumb },
         summary     : { text : item.summary },
-        author      : { text : item.author },
-        duration    : { text : item.duration.h + ":" + item.duration.m + ":" + item.duration.s },
         properties    : { url : item.link }
       };});
 

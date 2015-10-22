@@ -8,8 +8,6 @@
         <ItemTemplate name="rowtemplate" class="rowtemplate">
            <ImageView bindId="thumb" class="thumb"/>
            <Label bindId="summary" class="summary"/>
-           <Label bindId="author" class="author"/>
-           <Label bindId="duration" class="duration"/>
         </ItemTemplate>
         <ItemTemplate name="loadingtemplate" class="loadingtemplate">
            <Label bindId="loading" class="loading"/>

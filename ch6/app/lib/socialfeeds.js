@@ -1,27 +1,22 @@
 var Codebird  = require("codebird");  // library to access Twitter
-var cb      = new Codebird();
+var cb        = new Codebird();
 
 var getFeed=function(args){
   switch (args.type){
     case 'YOUTUBE':
-      var _url='https://gdata.youtube.com/feeds/api/users/#USER#/uploads?max-results=#MAX#&alt=json';
-      var url=_url;
+      var _url1 ='https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=#PLAYLIST#&key=#APIKEY#';
+      var url1=_url1;
 
-      url=url.replace('#USER#',Ti.Network.encodeURIComponent(args.user));
-      if (args.max >0){
-        url=url.replace('#MAX#',args.max);
-      }else{
-        url=url.replace('#MAX#','20'); // default to 20
-      }
-
+      url1=url1.replace('#PLAYLIST#',args.youtubePlaylist);
+      url1=url1.replace('#APIKEY#',args.youtubeAPIKey);
+      
       var http=Ti.Network.createHTTPClient({
         onload  : args.success,
         onerror : args.error
       })
 
-      http.open('GET',url);
+      http.open('GET',url1);
       http.send();
-
 
       break;
 

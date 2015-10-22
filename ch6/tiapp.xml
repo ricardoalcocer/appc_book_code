@@ -34,7 +34,7 @@
                 <key>UIStatusBarHidden</key>
                 <false/>
                 <key>UIStatusBarStyle</key>
-                <string>UIStatusBarStyleDefault</string>
+                <string>UIStatusBarStyleLightContent</string>
             </dict>
         </plist>
     </ios>
@@ -59,7 +59,7 @@
         <target device="iphone">true</target>
         <target device="mobileweb">false</target>
     </deployment-targets>
-    <sdk-version>4.0.0.GA</sdk-version>
+    <sdk-version>5.0.2.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>

@@ -4,7 +4,8 @@
 
 "TabGroup[platform=ios]":{
 	tabsTintColor: "#6A9E68",
-  tintColor: "#ffffff"
+  tintColor: "#ffffff",
+  navTintColor : "#fff"
 }
 
 "#tab1[platform=ios]":{

@@ -4,7 +4,10 @@
   title: L("tab4_title"),
   backgroundColor: "#fff" ,
   orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
-  statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+  statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+  titleAttributes: {
+    color: '#FFF'
+  }
 }
 
 ".container[platform=android]" : {
@@ -32,7 +35,7 @@
 }
 
 ".summary[platform=ios]":{
-  top: 20,
+  top: 5,
   left: 70,
   right: 10,
   width: Ti.UI.FILL,
@@ -44,7 +47,7 @@
 }
 
 ".summary[platform=android]":{
-  top: 20,
+  top: 5,
   left: 70,
   right: 10,
   width: Ti.UI.FILL,

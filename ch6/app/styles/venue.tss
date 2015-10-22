@@ -4,7 +4,10 @@
 	backgroundColor: "#fff",
 	title: L("tab2_title"),
 	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
-	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT 
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT ,
+	titleAttributes: {
+		color: '#FFF'
+	}
 }
 
 ".container[platform=android]" : {
